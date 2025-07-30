@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jouhar Jaleel - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">Jouhar Jaleel</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <div class="hero-content">
+      <h2>Hello, I'm Jouhar 👋</h2>
+      <p>A passionate Web Developer & AI Student based in Kerala, India. I love building beautiful and functional websites and exploring the world of data science.</p>
+      <a href="#projects" class="hero-button">View Projects</a>
+    </div>
+  </section>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I'm currently pursuing a B.Tech in Artificial Intelligence & Data Science from Dhaanish Ahmed Institute of Technology, Coimbatore. With over a year of freelance web development experience at VANDALS(startup), I’ve built various websites and apps. I'm also certified in Data Science and UI/UX Design with hands-on project experience in both areas.</p>
+  </section>
+
+  <section id="skills" class="section" data-aos="fade-up">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Java</li>
+      <li>Python (Basics)</li>
+      <li>UI & UX Design</li>
+      <li>Oracle DB</li>
+      <li>MySQL</li>
+      <li>Data Science</li>
+      <li>Git & GitHub</li>
+      <li>VS Code / IntelliJ</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section" data-aos="fade-up">
+  <h2>Projects</h2>
+  <div class="project-container">
+
+    <div class="project-card">
+      <h3>Voting System</h3>
+      <p>A secure online voting system built with PHP and MySQL that restricts multiple votes and displays live results.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Chatbot Interface</h3>
+      <p>Developed a conversational chatbot interface to simulate human-like FAQ interactions using JavaScript logic and design elements.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>House Price Prediction</h3>
+      <p>Used Python and machine learning techniques to predict housing prices based on dataset features like location and size.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>E-Commerce Frontend</h3>
+      <p>Designed and built a fully responsive frontend UI for an online store using HTML, CSS, and JavaScript.</p>
+    </div>
+
+    <div class="project-card">
+      <h3>Restaurant Websites</h3>
+      <p>Created professional, responsive websites for restaurants with menu pages, contact forms, and animations using Bootstrap and custom styling.</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <p>📧 Email: <a href="mailto:jouharjaleel288@gmail.com">jouharjaleel288@gmail.com</a></p>
+    <p>📱 Phone: <a href="tel:+918921003351">+91 8921003351</a></p>
+    <p>🌍 Location: Kerala, India</p>
+  </section>
+
+  <footer class="footer">
+  <h3>Send Me a Message</h3>
+  <form class="footer-form" action="https://formspree.io/f/mnnzjldb" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Gmail" required>
+  <textarea name="message" rows="4" placeholder="Your Request or Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+  <p>© 2025 Jouhar Jaleel. All rights reserved.</p>
+</footer>
+
+
+  <!-- AOS Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
